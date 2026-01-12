@@ -14,31 +14,38 @@ video {
 }
 
 .button {
-  display: flex;
-  max-width: 150px;
-  padding: 10px 20px;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  border-radius: 19px;
-  border: 2px solid #f00;
+  gap: 12px;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: white;
+  border: 3px solid #ff0000;
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
   margin-top: 50px;
   margin-left: 50px;
 }
 
-h1 {
-  font-weight: 400;
-  color: #f00;
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 18px;
+.button .icon {
+  font-size: 24px;
+  transition: all 0.25s ease;
 }
 
-.fa-regular {
-  color: #f00;
-  font-family: "Font Awesome 6 Free";
-  font-size: 18px;
-  font-style: normal;
+.button .count {
+  color: black;
+  transition: color 0.3s ease;
   font-weight: 400;
-  line-height: 18px; /* 100% */
+}
+
+.button:hover {
+  background: #ff0000;
+  color: white;
+}
+
+.button:hover .count {
+  color: white;
 }
