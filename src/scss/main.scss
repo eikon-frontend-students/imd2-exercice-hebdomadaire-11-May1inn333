@@ -15,11 +15,14 @@ video {
 
 .button {
   display: flex;
+  max-width: 150px;
   padding: 10px 20px;
   align-items: center;
   gap: 10px;
   border-radius: 19px;
   border: 2px solid #f00;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 h1 {
@@ -29,4 +32,13 @@ h1 {
   font-size: 18px;
   font-style: normal;
   line-height: 18px;
+}
+
+.fa-regular {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
 }
