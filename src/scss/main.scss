@@ -12,3 +12,21 @@ img,
 video {
   display: block;
 }
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+}
+
+h1 {
+  font-weight: 400;
+  color: #f00;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 18px;
+}
